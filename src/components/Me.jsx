@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Me = () => {
   return (
-    <div className=" w-full h-[90vh]">
+    <div className=" w-full min-h-[90vh]">
       <div className=" my-10 px-10  flex flex-col gap-10  md:flex-row justify-between h-full items-center text-white max-w-screen-xl mx-auto">
         <div className="flex-1 flex flex-col gap-5">
           <h2 className="text-3xl md:text-5xl text-[#FFFFFF] font-[700]">
