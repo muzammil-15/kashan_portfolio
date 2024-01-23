@@ -42,3 +42,38 @@ export const  projects = [
   },
   
 ]
+
+export const  services = [
+  {
+    title: "Web Design",
+    desc: "Crafting sleek websites for a captivating online user experience",
+    image: "/assets/scard1.png"
+  },
+  {
+    title: "App Design",
+    desc: "Crafting sleek websites for a captivating online user experience",
+    image: "/assets/scard1.png"
+  },
+  {
+    title: "Responsive Design",
+    desc: "Crafting sleek websites for a captivating online user experience",
+    image: "/assets/scard1.png"
+  },
+  {
+    title: "User-Centered Design",
+    desc: "Crafting sleek websites for a captivating online user experience",
+    image: "/assets/scard1.png"
+  },
+  {
+    title: "Prototyping for Validation",
+    desc: "Crafting sleek websites for a captivating online user experience",
+    image: "/assets/scard1.png"
+  },
+  {
+    title: "Dashboard Design",
+    desc: "Crafting sleek websites for a captivating online user experience",
+    image: "/assets/scard1.png"
+  },
+  
+  
+]

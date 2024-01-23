@@ -1,6 +1,8 @@
 import Hero from '@/components/Hero'
 import Me from '@/components/Me'
 import Projects from '@/components/Projects'
+import Services from '@/components/Services'
+import Testimonail from '@/components/Testimonial'
 import Image from 'next/image'
 
 export default function Home() {
@@ -9,6 +11,9 @@ export default function Home() {
       <Hero/>
       <Me/>
       <Projects/>
+      <Services/>
+      <Testimonail/>
+
     </main>
   )
 }
