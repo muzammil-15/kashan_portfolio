@@ -8,7 +8,7 @@ const Services = () => {
     <div className="my-20 md:mt-5 w-full min-h-[90vh]">
       <div className="  px-10  flex flex-col  justify-between h-full items-center text-white max-w-screen-xl mx-auto">
         <div className="flex flex-col justify-center items-center">
-          <Image src={"/assets/Services.png"} width={1000} height={200} />
+          <Image src={"/assets/Services.png"} width={1000} height={200} alt="services"/>
           
         </div>
         <div className="flex justify-center items-center gap-10 flex-wrap w-full">

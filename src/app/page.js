@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Me from '@/components/Me'
 import Projects from '@/components/Projects'
@@ -13,6 +14,8 @@ export default function Home() {
       <Projects/>
       <Services/>
       <Testimonail/>
+      <Footer/>
+
 
     </main>
   )
