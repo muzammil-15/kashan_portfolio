@@ -51,7 +51,7 @@ const Navbar = () => {
           </svg>
         </button>
         <div
-          className={`w-full md:flex md:w-auto ${
+          className={` md:flex md:w-auto ${
             isMenuOpen ? "block absolute top-20 right-10 rounded-lg w-[160px] bg-black" : "hidden bg-transparent"
           }`}
           id="navbar-default"
