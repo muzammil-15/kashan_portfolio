@@ -13,19 +13,19 @@ const Footer = () => {
             presence or help with your UI/UX deesign
           </p>
           <div className="flex justify-center gap-5 md:gap-10 items-center w-full">
-            <Link href="/">
+            <Link href="https://twitter.com/kashan48207" target="_blank">
                 <Image src={"/assets/t.png"} width={50} height={50} alt="tweeter"/>
             </Link>
-            <Link href="/">
+            <Link href="https://www.linkedin.com/feed/" target="_blank">
                 <Image src={"/assets/l.png"} width={50} height={50} alt="linkedin"/>
             </Link>
-            <Link href="/">
+            <Link href="https://dribbble.com/kashan909042" target="_blank">
                 <Image src={"/assets/d.png"} width={50} height={50} alt="dribble"/>
             </Link>
-            <Link href="/">
+            <Link href="https://wa.link/mj6z3v" target="_blank">
                 <Image src={"/assets/w.png"} width={50} height={50} alt="whatsapp"/>
             </Link>
-            <Link href="/">
+            <Link href="https://mail.google.com/mail/u/0/meer2keman@gmail.com" target="_blank">
                 <Image src={"/assets/m.png"} width={50} height={50} alt="email"/>
             </Link>
           </div>
