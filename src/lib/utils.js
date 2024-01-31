@@ -77,3 +77,33 @@ export const  services = [
   
   
 ]
+
+
+// social media links and images
+
+export const  social = [
+  {
+    image: "/assets/insta.png",
+    href: "https://www.instagram.com/kashan_ali_84/"
+  },
+  {
+    image: "/assets/behance.png",
+    href: "https://www.behance.net/kashanmir1"
+  },
+  {
+    image: "/assets/tweet.png",
+    href: "https://twitter.com/kashan48207"
+  },
+  {
+    image: "/assets/linkedin.png",
+    href: "https://www.linkedin.com/feed/"
+  },
+  {
+    image: "/assets/facebook.png",
+    href: "https://www.facebook.com/profile.php?id=61555036920887"
+  },
+  {
+    image: "/assets/dribbble.png",
+    href: "https://dribbble.com/kashan909042"
+  },  
+]

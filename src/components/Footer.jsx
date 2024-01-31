@@ -29,7 +29,7 @@ const Footer = () => {
                 <Image src={"/assets/m.png"} width={50} height={50} alt="email"/>
             </Link>
           </div>
-          <div className="text-[#FFFFFF80] text-lg md:text-xl font-[500]">Created by <span className="text-[#FFF] font-[700]">Kashan Mir</span> | All Reserved!</div>
+          <div className="text-[#FFFFFF80] text-sm sm:text-lg md:text-xl font-[500] text-center">Created by <span className="text-[#FFF] font-[700]">Kashan Mir</span> | All Reserved!</div>
         </div>
       </div>
     </div>

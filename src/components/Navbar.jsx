@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className="bg-[#1d1d1def] sticky top-0 left-0 shadow-lg z-[100]">
       <div className="max-w-screen-xl  flex items-center justify-between mx-auto p-4">
         <Link
-          href="#"
+          href="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <Image src="/assets/logo.png" width={60} height={60} alt="logo"/>
@@ -59,7 +59,7 @@ const Navbar = () => {
           <ul className="font-medium flex flex-col p-4 md:p-0   md:flex-row md:space-x-8   text-white ">
             <li>
               <Link
-                href="#"
+                href="/"
                 className="block py-2 px-3  rounded md:hover:bg-transparent  hover:text-blue-700  text-white"
               >
                 HOME
@@ -67,7 +67,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/about-me"
                 className="block py-2 px-3  rounded md:hover:bg-transparent  hover:text-blue-700   text-white"
               >
                 ABOUT ME
@@ -83,7 +83,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="/contact-me"
                 className="block py-2 px-4 border bg-[#03030480]  border-sky-100  rounded-[30px] md:hover:bg-transparent  md:hover:text-blue-700  text-white "
               >
                 CONTACT
