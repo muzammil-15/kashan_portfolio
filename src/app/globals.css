@@ -83,3 +83,54 @@ body{
 .card{
   background: linear-gradient(214deg, #000 6.04%, #4A4A4A 92.95%), linear-gradient(214deg, #000 6.04%, #756D62 92.95%);
 }
+
+
+/* scroll bar  */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsla(53, 81%, 59%, 1);
+
+background: linear-gradient(90deg, hsla(53, 81%, 59%, 1) 0%, hsla(30, 100%, 41%, 1) 58%);
+
+background: -moz-linear-gradient(90deg, hsla(53, 81%, 59%, 1) 0%, hsla(30, 100%, 41%, 1) 58%);
+
+background: -webkit-linear-gradient(90deg, hsla(53, 81%, 59%, 1) 0%, hsla(30, 100%, 41%, 1) 58%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBD744", endColorstr="#D16900", GradientType=1 );
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+
+
+
+/* Horizontal scrollbar */
+::-webkit-scrollbar:horizontal {
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #af2245;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-track:horizontal {
+  background-color: #f1f1f1;
+}
+
+/* this is simpleInput componet */
+
+.rti--container {
+  --rti-bg: "#fff" ;
+  --rti-border: "#000" !important; /* Red border color */
+  --rti-main: "#3182ce" !important;
+  --rti-radius: "0.375rem" !important;
+  --rti-s: "0.5rem";
+  --rti-tag: "#edf2f7";
+  --rti-tag-remove: "#e53e3e" ;}

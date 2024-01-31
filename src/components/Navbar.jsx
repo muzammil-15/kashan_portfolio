@@ -75,7 +75,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                href="#"
+                href="#work"
                 className="block py-2 px-3  rounded-[30px]  md:hover:bg-transparent  hover:text-blue-700   text-white"
               >
                 MY WORKS

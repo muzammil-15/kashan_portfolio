@@ -5,7 +5,7 @@ import Project from "./Project";
 
 const Projects = () => {
   return (
-    <div className="mt-20 md:mt-5 w-full min-h-[90vh]">
+    <div className="mt-20 md:mt-5 w-full min-h-[90vh]" id="#work">
       <div className=" my-10 px-10  flex flex-col gap-10 justify-between h-full items-center text-white max-w-screen-xl mx-auto">
         <div className="flex flex-col justify-center items-center">
           <Image src={"/assets/projects.png"} width={1000} height={200}  alt="projects"/>
