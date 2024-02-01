@@ -42,15 +42,20 @@ const About = () => {
             </Link>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <Image src={"/assets/f.png"} width={1000} height={200}  alt="projects"/>
+            <Image
+              src={"/assets/f.png"}
+              width={1000}
+              height={200}
+              alt="projects"
+            />
             <div className="flex justify-center items-center gap-10 flex-wrap w-full">
-          {social.map((social, index) => (
-            <React.Fragment key={index} >
-              <Social {...social} />
-            </React.Fragment>
-          ))}
-        </div>
-        </div>
+              {social.map((social, index) => (
+                <React.Fragment key={index}>
+                  <Social {...social} />
+                </React.Fragment>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>
