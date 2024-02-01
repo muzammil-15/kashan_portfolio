@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <div className='my-16 w-full md:w-[90%] lg:w-[80%]'>
         <form action="">
-            <div className='w-full flex flex-col md:flex-row justify-center items-center gap-10'>
+            <div className='w-full flex flex-col gap-4 md:flex-row justify-center items-center md:gap-10'>
                 <div className='flex flex-col gap-1 w-full md:w-1/2'>
                     <label htmlFor="fname" className='text-lg font-[500] text-[#FFF]'>First Name</label>
                     <input type="text" className='p-3 bg-transparent border border-[#8d8c8cb2] rounded-lg w-full focus:bg-transparent' placeholder='First Name'/>
@@ -17,7 +17,7 @@ const Form = () => {
 
                 </div>
             </div>
-            <div className='w-full flex flex-col md:flex-row justify-center items-center gap-10 mt-6'>
+            <div className='w-full flex flex-col gap-4 md:flex-row justify-center items-center md:gap-10 mt-6'>
                 <div className='flex flex-col gap-1 w-full md:w-1/2'>
                     <label htmlFor="phone" className='text-lg font-[500] text-[#FFF]'>Phone</label>
                     <input type="number" className='p-3 bg-transparent border border-[#8d8c8cb2] rounded-lg w-full focus:bg-transparent' placeholder='Phone'/>
