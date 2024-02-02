@@ -11,32 +11,32 @@ export function cn(...inputs) {
 
 export const  projects = [
   {
-    title: "Lorem ipsum dolor sit",
+    title: "FOOD WEBSITE DESIGN",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
     image: "/assets/p1.png"
   },
   {
-    title: "Lorem ipsum dolor sit",
+    title: "Nursery Website design",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
     image: "/assets/p1.png"
   },
   {
-    title: "Lorem ipsum dolor sit",
+    title: "Crypto bloging Website ",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
     image: "/assets/p1.png"
   },
   {
-    title: "Lorem ipsum dolor sit",
+    title: "Nft mobile app design",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
     image: "/assets/p1.png"
   },
   {
-    title: "Lorem ipsum dolor sit",
+    title: "Hotel Website design",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
     image: "/assets/p1.png"
   },
   {
-    title: "Lorem ipsum dolor sit",
+    title: "Food mobile App design",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
     image: "/assets/p1.png"
   },

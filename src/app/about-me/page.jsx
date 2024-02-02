@@ -6,6 +6,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+
+
+
 const About = () => {
   return (
     <div className=" w-full ">
@@ -58,6 +61,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
