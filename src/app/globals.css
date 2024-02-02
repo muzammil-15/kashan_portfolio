@@ -88,7 +88,7 @@ body{
 /* scroll bar  */
 
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -101,7 +101,7 @@ background: -moz-linear-gradient(90deg, hsla(53, 81%, 59%, 1) 0%, hsla(30, 100%,
 background: -webkit-linear-gradient(90deg, hsla(53, 81%, 59%, 1) 0%, hsla(30, 100%, 41%, 1) 58%);
 
 filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBD744", endColorstr="#D16900", GradientType=1 );
-  border-radius: 50px;
+  border-radius: 200px;
 }
 
 ::-webkit-scrollbar-track {

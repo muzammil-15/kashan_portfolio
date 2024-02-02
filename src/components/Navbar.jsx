@@ -84,7 +84,7 @@ const Navbar = () => {
             <li>
               <Link
                 href="/contact-me"
-                className="block py-2 px-4 border bg-[#03030480]  border-sky-100  rounded-[30px] md:hover:bg-transparent  md:hover:text-orange-600  text-white "
+                className="block py-2 px-4 border bg-[#03030480]  border-orange-300 hover:border-orange-800  rounded-[30px] md:hover:bg-transparent  md:hover:text-orange-600  text-white "
               >
                 CONTACT
               </Link>
