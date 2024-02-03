@@ -18,27 +18,27 @@ export const  projects = [
   {
     title: "Nursery Website design",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
-    image: "/assets/p1.png"
+    image: "/assets/p2.png"
   },
   {
     title: "Crypto bloging Website ",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
-    image: "/assets/p1.png"
+    image: "/assets/p3.png"
   },
   {
     title: "Nft mobile app design",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
-    image: "/assets/p1.png"
+    image: "/assets/p4.png"
   },
   {
     title: "Hotel Website design",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
-    image: "/assets/p1.png"
+    image: "/assets/p5.png"
   },
   {
     title: "Food mobile App design",
     desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
-    image: "/assets/p1.png"
+    image: "/assets/p6.png"
   },
   
 ]
