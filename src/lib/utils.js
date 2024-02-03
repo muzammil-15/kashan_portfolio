@@ -12,32 +12,32 @@ export function cn(...inputs) {
 export const  projects = [
   {
     title: "FOOD WEBSITE DESIGN",
-    desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
+    desc: "Indulge in a visually enticing culinary experience with our meticulously crafted Food Website Design. Immerse yourself in a feast for the eyes as vibrant imagery, intuitive navigation, and mouth-watering visuals beckon you to explore a world of delightful gastronomy. Elevate your online presence with a design that not only stimulates appetite but also provides a seamless and delightful user journey through the delectable realms of your culinary offerings.",
     image: "/assets/p1.png"
   },
   {
     title: "Nursery Website design",
-    desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
+    desc: "Embark on a journey through our Nursery Website Design, where the charm of nature meets the sophistication of seamless digital interaction. Immerse visitors in a lush visual tapestry, harmonized with user-friendly navigation, fostering an engaging experience. Let your nursery's unique essence bloom online with a design that captivates, educates, and cultivates a thriving virtual garden for your community.",
     image: "/assets/p2.png"
   },
   {
-    title: "Crypto bloging Website ",
-    desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
+    title: "Crypto blogging Website ",
+    desc: "Dive into the dynamic world of cryptocurrency with our Crypto Blogging Website. Unveil insightful content, cutting-edge analysis, and market trends through a sleek and user-friendly design. Elevate your crypto narrative with a platform that seamlessly integrates information and aesthetics, catering to both novice enthusiasts and seasoned professionals",
     image: "/assets/p3.png"
   },
   {
     title: "Nft mobile app design",
-    desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
+    desc: "Experience the future of digital assets with our NFT Mobile App Design. Immerse yourself in a user-friendly interface that seamlessly showcases and trades unique digital creations. Navigate the world of non-fungible tokens effortlessly, where innovation meets intuitive design, shaping the next generation of digital collectibles.",
     image: "/assets/p4.png"
   },
   {
     title: "Hotel Website design",
-    desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
+    desc: "Discover a world of unparalleled hospitality through our Hotel Website Design. Immerse visitors in an elegant digital ambiance that mirrors the luxury and comfort of your establishment. From seamless booking experiences to visually enticing showcases of amenities, our design aims to captivate and convert, ensuring a memorable virtual stay.",
     image: "/assets/p5.png"
   },
   {
     title: "Food mobile App design",
-    desc: "Lorem ipsum dolor sit amet consectet Nec phasellus amet amet amet faucibus,",
+    desc: "Savor the convenience of delightful dining with our Food Mobile App Design. Effortlessly blending delectable visuals with intuitive functionality, our design ensures a seamless culinary journey. From mouth-watering menus to swift and secure transactions, indulge in a mobile app that elevates the entire food ordering experience",
     image: "/assets/p6.png"
   },
   
