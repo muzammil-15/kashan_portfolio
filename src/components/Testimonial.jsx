@@ -20,7 +20,7 @@ const Testimonail = () => {
           </h2>
         </div>
         <div className="relative my-10 w-full">
-          <Carousel className="mx-10" plugins={[
+          <Carousel className="md:mx-10" plugins={[
         AutoScroll(
           {
             startDelay: 0,
