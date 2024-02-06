@@ -1,9 +1,10 @@
-"use client";
+"use client"
 import Link from "next/link";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Form = () => {
+
   const formRef = useRef();
   const [form, setForm] = useState({
     firstName: "",
@@ -33,8 +34,8 @@ const Form = () => {
 
     emailjs
       .send(
-        process.env.EMAIL_SERVICE_KEY,
-        process.env.EMAIL_TEMPLETE_KEY,
+        process.env.NEXT_PUBLIC_EMAIL_SERVICE_KEY,
+        process.env.NEXT_PUBLIC_EMAIL_TEMPLETE_KEY,
         {
           from_name: form.firstName+" "+form.lastName,
           to_name: "Kashan Meer",
@@ -43,7 +44,7 @@ const Form = () => {
           to_email: "meer2keman@gmail.com",
           message: form.message,
         },
-        process.env.EMAIL_ID_KEY
+        process.env.NEXT_PUBLIC_EMAIL_ID_KEY
       )
       .then(
         () => {
