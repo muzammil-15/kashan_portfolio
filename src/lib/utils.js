@@ -46,8 +46,8 @@ export const  projects = [
     href: "https://www.behance.net/gallery/184755891/Hotel-Website-UXUI-Design"
   },
   {
-    title: "Food mobile App design",
-    desc: "Savor the convenience of delightful dining with our Food Mobile App Design. Effortlessly blending delectable visuals with intuitive functionality, our design ensures a seamless culinary journey. From mouth-watering menus to swift and secure transactions, indulge in a mobile app that elevates the entire food ordering experience",
+    title: "Jewelry Store Website",
+    desc: "Crafted with elegance and sophistication in mind, our Jewelry Store Website design embodies luxury. From stunning product showcases to seamless navigation, we bring your exquisite pieces to life online, captivating customers with every click.",
     image: "/assets/p6.png",
     image1: "/assets/p66.png",
     href: "https://www.behance.net/gallery/171935611/Jewelry-store-website-UI-Design"
