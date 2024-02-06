@@ -9,7 +9,7 @@ export default function Project({ title, desc, image, image1, href }) {
   const description = desc.slice(0,100)
   return (
     <Drawer className="w-full">
-      <DrawerTrigger className="w-full relative  overflow-hidden h-[300px] sm:w-[80%] md:w-[40%] lg:w-[30%] rounded-lg bg-contain bg-center">
+      <DrawerTrigger className="w-full relative  overflow-hidden h-[300px]  rounded-lg bg-contain bg-center">
           <img src={image} className="h-[300px] w-full" alt="image" />
           <div className="w-full h-full bg-[#1d1d1dad] z-50 absolute top-0 left-0">
             <h1 className="absolute bottom-5 left-2 uppercase font-[700] tracking-wider opacity-6">{title.slice(0,40)}</h1>

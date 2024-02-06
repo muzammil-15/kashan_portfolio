@@ -3,6 +3,7 @@ import { project, projects } from "@/lib/utils";
 import Image from "next/image";
 import React, { useRef } from "react";
 import Project from "./Project";
+import { HoverEffect } from "./ProjectCardHoverEffect";
 
 const Projects = () => {
   const ref = useRef("work")
@@ -16,11 +17,17 @@ const Projects = () => {
           </h2>
         </div>
         <div className="flex justify-center items-center gap-10 flex-wrap w-full mt-14">
-          {projects.map((project, index) => (
+         
+           
+              
+              <HoverEffect projects={projects}/>
+            
+          {/* {projects.map((project, index) => (
             <React.Fragment key={index} >
               <Project {...project} />
+              <HoverEffect project={project}/>
             </React.Fragment>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>
