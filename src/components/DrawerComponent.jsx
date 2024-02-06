@@ -10,8 +10,9 @@ import {
 } from "@/components/ui/drawer";
 
 import Image from "next/image";
+import Link from "next/link";
 
-const DrawerComponent = ({ title, desc, image }) => {
+const DrawerComponent = ({ title, desc, image, image1, href }) => {
   return (
     <DrawerContent className=" w-full md:w-[90%] lg:w-[70%] mx-auto max-h-[80vh] border-none  max-w-screen-2xl bg-[#1d1d1def] ">
       <DrawerHeader className="mt-5">
@@ -44,12 +45,19 @@ const DrawerComponent = ({ title, desc, image }) => {
         <h2 className="text-2xl md:text-3xl font-[700] text-[#FFF]">{title}</h2>
         <p className="text-sm text-[#949494] font-[500] mt-4">{desc}</p>
         <Image
-          src={image}
+          src={image1}
           width={1000}
           height={400}
           alt="title"
           className="mt-6 px-10"
         />
+        <div className="my-5 w-full flex justify-center items-center">
+          <Link href={href} target="_blank">
+            <button className="flex justify-center items-center py-3 px-6 rounded-full bg-[#FF9142] hover:bg-[#f07f2e] text-[#F4F7FA] text-sm">
+              View more
+            </button>
+          </Link>
+        </div>
       </div>
     </DrawerContent>
   );
