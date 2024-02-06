@@ -16,8 +16,7 @@ export const HoverEffect = ({ projects, className }) => {
       )}
     >
       {projects.map((item, idx) => (
-        <Link
-          href={""}
+        <button
           key={item?.link}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
@@ -41,7 +40,7 @@ export const HoverEffect = ({ projects, className }) => {
             )}
           </AnimatePresence>
           <Project {...item}/>
-        </Link>
+        </button>
       ))}
     </div>
   );
