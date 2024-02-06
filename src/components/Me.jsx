@@ -10,7 +10,7 @@ const Me = () => {
           </h2>
           <p className="text-[#A8A8A8] font-[400] text-lg">
             Kashan Mir, a dedicated UX/UI designer, brings a focus on creating
-            seamless digital experiences. Based in [City or Region], his
+            seamless digital experiences. Based in Pakistan, his
             portfolio highlights a versatile skill set, encompassing everything
             from intuitive mobile interfaces to visually captivating web
             designs.

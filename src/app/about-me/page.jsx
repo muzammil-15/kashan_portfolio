@@ -20,16 +20,12 @@ const About = () => {
           <p className="text-[#949494] text-lg">Little Brief About Myself</p>
           <hr className="border-[0.5px] border-[#818080b2] w-[100%] mt-10" />
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-10 my-10">
+        <div className="flex flex-col md:flex-row justify-center items-start gap-10 my-10">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-[700] text-[#FFF] flex-1">
             My mission is to make design easier.
           </h2>
-          <p className="text-xl text-[#949494] font-[600] flex-1">
-            Create custom Designs with kashan that converts more visitors than
-            any website. With lots of unique design, you can easily select a
-            logo without hassle. Create custom landing logos with KASHAN that
-            converts more visitors than any website. With lots of revisions, you
-            can easily build a logo without a problem.{" "}
+          <p className="text-base sm:text-lg md:text-xl text-[#949494] font-[600] flex-1">
+          I'm Kashan, a passionate UX/UI designer dedicated to enhancing online experiences through innovative design solutions. With a focus on personalized creations, I strive to elevate website performance by bidding farewell to generic logos and landing pages. My commitment to excellence ensures that your brand stands out from competitors, offering exceptional outcomes tailored to your unique vision.
           </p>
         </div>
         <div className="flex flex-col gap-10 my-10">
