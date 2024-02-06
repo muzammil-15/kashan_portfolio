@@ -25,7 +25,7 @@ const About = () => {
             My mission is to make design easier.
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-[#949494] font-[600] flex-1">
-          I'm Kashan, a passionate UX/UI designer dedicated to enhancing online experiences through innovative design solutions. With a focus on personalized creations, I strive to elevate website performance by bidding farewell to generic logos and landing pages. My commitment to excellence ensures that your brand stands out from competitors, offering exceptional outcomes tailored to your unique vision.
+          I&apos;m Kashan, a passionate UX/UI designer dedicated to enhancing online experiences through innovative design solutions. With a focus on personalized creations, I strive to elevate website performance by bidding farewell to generic logos and landing pages. My commitment to excellence ensures that your brand stands out from competitors, offering exceptional outcomes tailored to your unique vision.
           </p>
         </div>
         <div className="flex flex-col gap-10 my-10">
